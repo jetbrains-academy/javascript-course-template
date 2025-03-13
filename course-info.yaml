@@ -1,0 +1,14 @@
+type: marketplace
+title: JetBrains Academy JavaScript course template
+language: English
+summary: |-
+  <p>Here you can put the course description.</p>
+  <p>You can use HTML tags inside the description.</p>
+programming_language: JavaScript
+content:
+  - lesson1
+additional_files:
+  - name: package.json
+  - name: utils/utils.js
+  - name: jsconfig.json
+yaml_version: 2

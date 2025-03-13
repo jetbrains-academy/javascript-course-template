@@ -7,6 +7,10 @@
 > Click the <kbd>Use this template</kbd> button to create your own repository based on this template.
 
 # TODO
+- Add checkbox tests
+- Describe why i/o tasks are not working out of the box
+- Add placeholders for demo
 - Description
 - Links to the docs
+- `utils/utils.js`
 - ...

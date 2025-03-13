@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "@types/jest": "^29.2.5",
+    "rewire": "^7.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "imports": {
+    "#utils/*": [
+      "./utils/*"
+    ]
+  },
+  "dependencies": {
+    "@jridgewell/gen-mapping": "^0.3.7",
+    "lodash": "^4.17.21"
+  }
+}

@@ -1,0 +1,7 @@
+// TODO: replace this with an actual task
+function mySum(a, b) {
+    return a + b;
+}
+
+console.log(mySum(1, 2)); // prints 3
+console.log(mySum(-1, 1)); // prints 0
