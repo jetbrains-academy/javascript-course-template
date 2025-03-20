@@ -6,7 +6,7 @@ summary: |-
   <p>You can use HTML tags inside the description.</p>
 programming_language: JavaScript
 content:
-  - lesson1
+  - demo_lesson
 additional_files:
   - name: package.json
   - name: utils/utils.js
