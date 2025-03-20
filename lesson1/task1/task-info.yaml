@@ -3,6 +3,10 @@ custom_name: Task with jest typical unittests
 files:
   - name: task.js
     visible: true
+    placeholders:
+      - offset: 76
+        length: 6
+        placeholder_text: // calculate the sum of a and b
   - name: test/test.js
     visible: false
     propagatable: false

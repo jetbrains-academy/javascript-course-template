@@ -11,4 +11,6 @@ additional_files:
   - name: package.json
   - name: utils/utils.js
   - name: jsconfig.json
+  - name: README.md
+  - name: LICENSE
 yaml_version: 2

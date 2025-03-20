@@ -7,10 +7,10 @@
 > Click the <kbd>Use this template</kbd> button to create your own repository based on this template.
 
 # TODO
-- Add checkbox tests
-- Describe why i/o tasks are not working out of the box
-- Add placeholders for demo
 - Description
 - Links to the docs
-- `utils/utils.js`
 - ...
+
+## utils.js
+In the `utils/utils.js` you can find a couple of functions that simplify writing tests and make them shorter and clearer.
+They are well documented and already used in test examples.

@@ -1,0 +1,16 @@
+type: choice
+custom_name: Multiple choice quiz
+is_multiple_choice: false
+options:
+  - text: JavaScript
+    is_correct: true
+  - text: Kotlin
+    is_correct: false
+  - text: C++
+    is_correct: false
+  - text: Classical literature
+    is_correct: false
+files:
+  - name: task.js
+    visible: true
+local_check: true

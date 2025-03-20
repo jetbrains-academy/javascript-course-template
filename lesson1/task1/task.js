@@ -1,6 +1,6 @@
 // TODO: replace this with an actual task
 function mySum(a, b) {
-    return a + b;
+    return a + b;  // <- placeholder example
 }
 
 console.log(mySum(1, 2)); // prints 3
