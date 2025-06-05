@@ -1,16 +1,14 @@
-const rewire = require('rewire');
-const console = require("node:console");
-const {customizeError} = require('#utils/utils.js')
+import {customizeError} from '#utils/utils.js'
+import console from "node:console";
+import { jest } from '@jest/globals';
 
 const consoleOutput = [];
 
-beforeAll(() => {
-    let originalConsoleLog = console["log"];
-    const storeLog = (...inputs) => consoleOutput.push(inputs.join(' '));
-    console.log = jest.fn(storeLog);
+beforeAll( async () => {
+    const originalConsoleLog = console.log;
+    global.console.log = jest.fn((...inputs) => consoleOutput.push(inputs.join(' ')));
 
-    rewire('../task');
-    //require('../task');
+    await import('../task.js');
 
     console.log = originalConsoleLog
 });

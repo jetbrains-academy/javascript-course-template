@@ -4,7 +4,7 @@ files:
   - name: task.js
     visible: true
     placeholders:
-      - offset: 76
+      - offset: 83
         length: 6
         placeholder_text: // calculate the sum of a and b
   - name: test/test.js

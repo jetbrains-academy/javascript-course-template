@@ -5,35 +5,9 @@
  * @param {String} errorMessage An error message that will be displayed to the user in the IDE
  * @param {Boolean} rmStack Specifies whether stack trace errors will be deleted
  */
-function customizeError(error, errorMessage, rmStack = false) {
+export function customizeError(error, errorMessage, rmStack = false) {
     error.message = error.message.replace(/.*\n/, errorMessage);
     if (rmStack) {
         error.stack = null;
     }
 }
-
-/**
- * Workaround for easier handling errors in importing variables/functions/... from rewired modules
- *
- * @param {object} rewired_module Rewired module from which you want to import a variable
- * @param {String} name Name to be imported
- *
- * @return "name" value
- *
- * @throws {Error} user-readable error if it was impossible to import a variable with that name
- */
-function importByName(rewired_module, name){
-    try {
-        return rewired_module.__get__(name);
-    }
-    catch (e) {
-        let errorToShow = new Error(`Check that ${name} is defined in the file ${rewired_module.__get__('module.filename').split('/').pop()}`);
-        errorToShow.stack = null;
-        throw errorToShow;
-    }
-}
-
-module.exports = {
-    customizeError,
-    importByName
-};

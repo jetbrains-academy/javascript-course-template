@@ -1,5 +1,4 @@
 type: choice
-custom_name: Multiple choice quiz
 is_multiple_choice: false
 options:
   - text: JavaScript
@@ -13,4 +12,5 @@ options:
 files:
   - name: task.js
     visible: true
+custom_name: Multiple choice quiz
 local_check: true

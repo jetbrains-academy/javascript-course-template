@@ -1,14 +1,5 @@
-const rewire = require('rewire');
-const task = rewire('../task');
-const {importByName, customizeError} = require('#utils/utils.js')
-
-// TODO: declare what you need to use from task.js
-let mySum;
-
-beforeAll(() => {
-    // TODO: import what you need to use from task.js using importByName function
-    mySum = importByName(task, 'mySum');
-});
+import {mySum} from "../task.js";
+import {customizeError} from '#utils/utils.js'
 
 // TODO: update with your actual tests
 test('Returns 2 for input 1 1', () => {

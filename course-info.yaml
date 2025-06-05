@@ -13,4 +13,6 @@ additional_files:
   - name: jsconfig.json
   - name: README.md
   - name: LICENSE
-yaml_version: 2
+  - name: run/Template Jest.run.xml
+  - name: jest.config.js
+yaml_version: 3
