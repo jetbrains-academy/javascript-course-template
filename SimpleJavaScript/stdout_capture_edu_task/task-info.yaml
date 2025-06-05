@@ -1,5 +1,5 @@
 type: edu
-custom_name: Task with jest console.log capture
+custom_name: Task with console.log capture
 files:
   - name: task.js
     visible: true

@@ -1,0 +1,10 @@
+type: edu
+custom_name: Backend testing
+files:
+  - name: test/test.js
+    visible: false
+    propagatable: false
+  - name: backend/package.json
+    visible: true
+  - name: backend/src/index.js
+    visible: true

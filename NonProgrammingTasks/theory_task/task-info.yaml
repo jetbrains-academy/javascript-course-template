@@ -1,5 +1,5 @@
 type: theory
-custom_name: Theory task example
+custom_name: Theory task
 files:
   - name: task.js
     visible: true

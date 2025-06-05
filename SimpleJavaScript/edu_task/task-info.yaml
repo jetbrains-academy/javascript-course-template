@@ -1,5 +1,5 @@
 type: edu
-custom_name: Task with jest typical unittests
+custom_name: Task with unittests
 files:
   - name: task.js
     visible: true
