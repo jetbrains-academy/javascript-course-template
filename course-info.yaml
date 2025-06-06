@@ -3,7 +3,7 @@ title: JetBrains Academy JavaScript course template
 language: English
 summary: |-
   <p>Here you can put the course description.</p>
-  <p>You can use HTML tags inside the description.</p>
+  <p>You can use <b>HTML tags</b> inside the description.</p>
 programming_language: JavaScript
 content:
   - NonProgrammingTasks
@@ -17,4 +17,5 @@ additional_files:
   - name: LICENSE
   - name: run/Template Jest.run.xml
   - name: jest.config.js
+  - name: package-lock.json
 yaml_version: 3

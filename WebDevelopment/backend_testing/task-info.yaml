@@ -1,10 +1,24 @@
 type: edu
 custom_name: Backend testing
 files:
+  - name: backend/src/index.js
+    visible: true
+    placeholders:
+      - offset: 354
+        length: 5
+        placeholder_text: /* Calculate the sum */
   - name: test/test.js
     visible: false
     propagatable: false
   - name: backend/package.json
     visible: true
-  - name: backend/src/index.js
-    visible: true
+  - name: images/run_dark.svg
+    visible: false
+  - name: images/run.svg
+    visible: false
+  - name: images/script_start_dark.png
+    visible: false
+    is_binary: true
+  - name: images/script_start.png
+    visible: false
+    is_binary: true
