@@ -56,21 +56,21 @@ Learn more about course creation with the JetBrains Academy plugin in the [Cours
 ## Examples of tasks
 We've selected example tasks that will allow you to create a great online course. Feel free to look inside each task and explore all nested files.
 
-### Theory (NonProgrammingTasks/theory_task/)
+### 🔳 Theory (NonProgrammingTasks/theory_task/)
 Contains a minimal set of files you will encounter in any task:
 - Source code file `task.js`, empty for the theory task.
 - Text displayed in task description: `task.md`.
 - Metadata file for the current task: `task-info.yaml`.
 
-### Multiple choice quiz (NonProgrammingTasks/quiz_task/)
+### 🔳 Multiple choice quiz (NonProgrammingTasks/quiz_task/)
 Same as Theory, but `task-info.yaml` contains answer options.
 
-### Task with unittests (SimpleJavaScript/edu_task/)
+### 🔳 Task with unittests (SimpleJavaScript/edu_task/)
 Includes a test file `test/test.js`, executed when clicking the `Check` button.
 File `task-info.yaml` contains placeholders.
 
-### Output testing task (SimpleJavaScript/stdout_capture_edu_task/)
+### 🔳 Output testing task (SimpleJavaScript/stdout_capture_edu_task/)
 Task demonstrating test usage to capture and check `console.log` output.
 
-### Node.js backend (WebDevelopment/backend_testing/)
+### 🔳 Node.js backend (WebDevelopment/backend_testing/)
 Example of testing backend routes in a Node.js application.
