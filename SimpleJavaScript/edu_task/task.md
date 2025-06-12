@@ -1,5 +1,5 @@
 This task demonstrates how user-written functions can be tested.
 
-Look into `test/test.js` for tests implementation.
+Refer to `test/test.js` for the test implementation.
 
-Loon into `task-info.yaml` to see how placeholders are encoded. Do not change `offset` and `length` manually.
+Check `task-info.yaml` to see how placeholders are encoded. Do not modify the `offset` and `length` manually.
