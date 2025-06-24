@@ -18,4 +18,5 @@ additional_files:
   - name: run/Template Jest.run.xml
   - name: jest.config.js
   - name: package-lock.json
+  - name: babel.config.cjs
 yaml_version: 3

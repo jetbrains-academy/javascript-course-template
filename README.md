@@ -27,6 +27,7 @@ Learn more about course creation with the JetBrains Academy plugin in the [Cours
 ├── jest.config.js    # Configuration file for the Jest testing framework.
 ├── jsconfig.json     # Configuration file for JS language features in the IDE.
 ├── package.json      # Lists project dependencies, scripts, and metadata.
+├── babel.config.cjs  # Configuration file for Babel, needed for the React projects
 ├── NonProgrammingTasks/
 │   ├── theory_task/      # A theory-based task.
 │   ├── quiz_task/        # A multiple-choice quiz task.
@@ -74,3 +75,6 @@ Demonstrates a task where the `console.log` output from a user’s solution is c
 
 ### 🔳 Node.js backend task (WebDevelopment/backend_testing/)
 An example of testing backend routes in a Node.js application.
+
+### 🔳 React frontend task (WebDevelopment/frontend_testing/)
+An example of testing frontend components in a React application.

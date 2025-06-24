@@ -1,0 +1,20 @@
+type: edu
+custom_name: Frontend testing
+files:
+  - name: frontend/src/App.jsx
+    visible: true
+  - name: test/test.jsx
+    visible: false
+    propagatable: false
+  - name: frontend/src/assets/academy.svg
+    visible: true
+  - name: frontend/src/main.jsx
+    visible: true
+  - name: frontend/src/index.css
+    visible: true
+  - name: frontend/index.html
+    visible: true
+  - name: frontend/package.json
+    visible: true
+  - name: frontend/vite.config.js
+    visible: true
