@@ -37,7 +37,8 @@ Learn more about course creation with the JetBrains Academy plugin in the [Cours
 │   ├── stdout_capture_edu_task/  # A task with console.log capture.
 │   └── lesson-info.yaml
 ├── WebDevelopment/
-│   ├── backend_testing/  # A Node.js backend task with unit tests.
+│   ├── backend_testing/   # A Node.js backend task with unit tests.
+│   ├── frontend_testing/  # A React frontend task with unit tests.
 │   └── lesson-info.yaml
 ├── run/
 │   └── Template Jest.run.xml  # Configuration file enabling the --experimental-vm-modules flag for Jest.
