@@ -1,7 +1,7 @@
-# JetBrains Academy JavaScript Course Template
-
 [![official project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+# JetBrains Academy JavaScript Course Template
 
 **JetBrains Academy JavaScript course template** is a repository that provides a
 pure template for creating new JavaScript/Node.js courses using the [JetBrains Academy
